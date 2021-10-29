@@ -3,9 +3,9 @@
 }
 body {
   background: url('./back.png');
-  background-position: center;
-  /* background-repeat: no-repeat; */
-  /* background-size: cover; */
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 0px;
 }
 .spring__wrapper {
