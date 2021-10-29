@@ -2,12 +2,13 @@
   --backgroundcolor: #f8ca9d5e;
 }
 body {
-  /* background: #f8ca9d5e; */
+  background: url('./back.png');
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
   margin: 0px;
 }
 .spring__wrapper {
-  background-image: url('./Background.png');
-  height: 112vh;
 }
 h4 {
   font-family: 'Zen Kurenaido', sans-serif;
@@ -48,6 +49,17 @@ iframe {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.product {
+  margin-top: 40px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.product .product__item {
+  width: 25%;
+  object-fit: cover;
 }
 
 /* resnponsive */
